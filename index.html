@@ -3,30 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            overflow-x: auto;
-        }
-    </style>
+    <title>PAC File Index</title>
 </head>
 <body>
-    <pre>
-function FindProxyForURL(url, host) {
-    var proxy = "PROXY 192.168.3.50:10809";
-    var direct = "DIRECT";
-    if (isResolvable("192.168.3.50")) {
-        return proxy;
-    }
-    return direct;
-}
-    </pre>
+    <h1>Proxy Auto-Configuration (PAC) File</h1>
+    <p>Click the link below to download or view the PAC file:</p>
+    <a href="/pac.pac" download="pac.pac">Download PAC File</a>
+    <h1>Proxy Auto-Configuration (PAC) File</h1>
+    <p>Click the link below to download or view the HTPAC file:</p>
+    <a href="/http.pac" download="http.pac">Download PAC File</a>
+
+
 </body>
 </html>
